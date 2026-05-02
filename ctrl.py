@@ -21,3 +21,6 @@ class Control:
             return a+b
         except:
             return "Calculation Error"
+        
+    def sub(self, a, b): # 뺄셈 함수 추가
+        return a-b
